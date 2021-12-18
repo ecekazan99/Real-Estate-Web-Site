@@ -1,0 +1,100 @@
+    /*This file is created for login pages stylings */
+    
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    
+    .login_page {
+        display: flex;
+        flex: 5;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .user_card {
+        margin: auto;
+        flex: 2;
+        background: rgba(246, 227, 197, 0.8);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .login_page_text {
+        padding-bottom: 20px;
+        color: rgb(70, 68, 68);
+        font-size: 30px;
+    }
+    
+    .brand_logo {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+    
+    .login_btn {
+        width: 100%;
+        background: #c0392b !important;
+        color: white !important;
+    }
+    
+    .login_btn:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+    
+    .login_container {
+        padding: 0 2rem;
+    }
+    
+    .input-group-text {
+        background: #c0392b !important;
+        color: white !important;
+        border: 0 !important;
+        border-radius: 0.25rem 0 0 0.25rem !important;
+    }
+    
+    .input_mail,
+    .input_pass:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+    
+    .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+        background-color: #c0392b !important;
+    }
+    
+    .close_btn {
+        background-color: #c0392b;
+        border: none;
+        color: white;
+        padding: 12px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 100%;
+    }
+    
+    .close_btn:hover {
+        background-color: #a33225;
+    }
+    
+    .btnPass {
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        z-index: 3;
+    }

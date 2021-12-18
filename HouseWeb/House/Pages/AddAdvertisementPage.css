@@ -1,0 +1,160 @@
+/* This css creates stylings of add advertisements page*/
+
+body {
+    font-family: 'Segoe UI';
+    font-size: 15px;
+}
+
+.wrapper {
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.slide {
+    height: 300px;
+    display: inline-block;
+    width: 50%;
+}
+
+*,
+*:focus {
+    outline: none;
+}
+
+form {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.form-item {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.form-item input {
+    height: 40px;
+    background: transparent;
+    border: solid 1px #ccc;
+    transition: all .3s ease;
+    padding: 0 15px;
+}
+
+.form-item input:focus {
+    border-color: #bd2130;
+}
+
+.form-item label {
+    position: absolute;
+    cursor: text;
+    z-index: 2;
+    top: 10px;
+    left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background: white;
+    padding: 0 3px;
+    color: black;
+    transition: all .3s ease;
+}
+
+.form-item input:focus+label,
+.form-item input:valid+label {
+    font-size: 15px;
+    top: -10px;
+}
+
+.form-item input:focus+label {
+    color: #bd2130;
+}
+
+.form-item textarea {
+    display: block;
+    background: transparent;
+    border: solid 1px #ccc;
+    transition: all .3s ease;
+    padding: 10px 15px;
+}
+
+.form-item textarea:focus {
+    border-color: #bd2130;
+}
+
+.form-item textarea:focus+label,
+.form-item textarea:valid+label {
+    font-size: 15px;
+    top: -10px;
+}
+
+.form-item textarea:focus+label {
+    color: #bd2130;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.form-item button[type=button] {
+    height: 40px;
+    background: transparent;
+    border: solid 1px #ccc;
+    z-index: 2;
+    top: 13px;
+    left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background: white;
+    color: black;
+    transition: all .3s ease;
+    border-radius: 0;
+}
+
+.form-item button:focus {
+    border-color: #bd2130;
+    border-radius: 0;
+}
+
+.additionPart {
+    background: transparent;
+    border: solid 1px #ccc;
+    transition: all .3s ease;
+    padding: 0 12px;
+    width: 70%;
+}
+
+.additionPart p {
+    z-index: 2;
+    font-size: 15px;
+    font-weight: bold;
+    background: white;
+    padding-top: 10px;
+    color: black;
+    transition: all .3s ease;
+}
+
+.close {
+    position: relative;
+    top: 2px;
+    right: 17%;
+    z-index: 100;
+    background-color: #d0e5f5;
+    padding: 5px 5px 8px 5px;
+    color: #000;
+    font-weight: bolder;
+    cursor: pointer;
+    opacity: 0.5;
+    font-size: 23px;
+    line-height: 10px;
+    border-radius: 100%;
+}
+
+.close:hover {
+    opacity: 1;
+    background-color: #ff0000;
+}
